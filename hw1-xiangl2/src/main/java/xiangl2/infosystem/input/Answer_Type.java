@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Sun Sep 08 22:59:03 EDT 2013 */
+/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
 package xiangl2.infosystem.input;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import xiangl2.infosystem.basic.TextAnnotationBase_Type;
 
 /** This class stores the annotation for an answer in the input file. It contains a feature content which annotates the answer sentence, and a feature isCorrect to show if this answer is correct.
- * Updated by JCasGen Sun Sep 08 22:59:03 EDT 2013
+ * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
  * @generated */
 public class Answer_Type extends TextAnnotationBase_Type {
   /** @generated */

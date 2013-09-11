@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Sun Sep 08 22:59:03 EDT 2013 */
+/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
 package xiangl2.infosystem.output;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,9 +11,9 @@ import xiangl2.infosystem.input.Answer;
 import xiangl2.infosystem.basic.TextAnnotationBase;
 
 
-/** This class records the score of an answer. 
- * Updated by JCasGen Sun Sep 08 22:59:03 EDT 2013
- * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/typeSystemDescriptor.xml
+/** This class records the score of an answer.
+ * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+ * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class AnswerScore extends TextAnnotationBase {
   /** @generated

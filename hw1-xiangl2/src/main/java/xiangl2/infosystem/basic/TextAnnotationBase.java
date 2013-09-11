@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Sun Sep 08 22:59:02 EDT 2013 */
+/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
 package xiangl2.infosystem.basic;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** Base type for text annotation. It contains a feature source which shows where this annotation was orriginally made by, and a feature confidence which indicates how confidence it was.
- * Updated by JCasGen Sun Sep 08 22:59:02 EDT 2013
- * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/typeSystemDescriptor.xml
+ * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+ * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class TextAnnotationBase extends Annotation {
   /** @generated

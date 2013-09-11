@@ -101,6 +101,7 @@
           <description>Array of tokens in this sentence.</description>
           <rangeTypeName>uima.cas.FSArray</rangeTypeName>
           <elementType>xiangl2.infosystem.content.Token</elementType>
+        <multipleReferencesAllowed>true</multipleReferencesAllowed>
         </featureDescription>
         <featureDescription>
           <name>gram1Array</name>
@@ -153,7 +154,7 @@
     </typeDescription>
     <typeDescription>
       <name>xiangl2.infosystem.output.AnswerScore</name>
-      <description>This class records the score of an answer. </description>
+      <description>This class records the score of an answer.</description>
       <supertypeName>xiangl2.infosystem.basic.TextAnnotationBase</supertypeName>
       <features>
         <featureDescription>

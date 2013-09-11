@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Sun Sep 08 22:59:03 EDT 2013 */
+/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
 package xiangl2.infosystem.input;
 
 import org.apache.uima.jcas.JCas; 
@@ -12,8 +12,8 @@ import xiangl2.infosystem.content.Sentence;
 
 
 /** This class stores the annotation for the question in the input file. It contains a feature content which annotates the question sentence.
- * Updated by JCasGen Sun Sep 08 22:59:03 EDT 2013
- * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/typeSystemDescriptor.xml
+ * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+ * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class Question extends TextAnnotationBase {
   /** @generated

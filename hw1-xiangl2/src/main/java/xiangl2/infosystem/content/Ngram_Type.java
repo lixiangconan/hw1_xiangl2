@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Sun Sep 08 22:59:02 EDT 2013 */
+/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
 package xiangl2.infosystem.content;
 
 import org.apache.uima.jcas.JCas;
@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** This class defines basic features and methods for an N-gram sequance annotation. It contains a feature tokenNumber which shows number of tokens in this sequence.
- * Updated by JCasGen Sun Sep 08 22:59:02 EDT 2013
+ * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
  * @generated */
 public class Ngram_Type extends Token_Type {
   /** @generated */
