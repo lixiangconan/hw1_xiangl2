@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:40 EDT 2013 */
 package xiangl2.infosystem.content;
 
 import org.apache.uima.jcas.JCas;
@@ -12,8 +12,8 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
-/** This class stores an 1-gram sequence in the input file. It contains a feature which indicates the only token in this sequence.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+/** This type is used to store an 1-gram sequence in the input file. It contains a feature which indicates the token in this sequence.
+ * Updated by JCasGen Wed Sep 11 20:37:40 EDT 2013
  * @generated */
 public class Gram1_Type extends Ngram_Type {
   /** @generated */

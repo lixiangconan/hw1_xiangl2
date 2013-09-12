@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:41 EDT 2013 */
 package xiangl2.infosystem.input;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import xiangl2.infosystem.basic.TextAnnotationBase;
 import xiangl2.infosystem.content.Sentence;
 
 
-/** This class stores the annotation for an answer in the input file. It contains a feature content which annotates the answer sentence, and a feature isCorrect to show if this answer is correct.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+/** This type is used to store the annotation of an answer in the input file. It contains a feature content which annotates the answer sentence, and a feature isCorrect which shows if this answer is correct.
+ * Updated by JCasGen Wed Sep 11 20:37:41 EDT 2013
  * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class Answer extends TextAnnotationBase {
@@ -66,14 +66,14 @@ public class Answer extends TextAnnotationBase {
   //*--------------*
   //* Feature: isCorrect
 
-  /** getter for isCorrect - gets Indicate if this answer is correct.
+  /** getter for isCorrect - gets the flag which indicates if this answer is correct.
    * @generated */
   public boolean getIsCorrect() {
     if (Answer_Type.featOkTst && ((Answer_Type)jcasType).casFeat_isCorrect == null)
       jcasType.jcas.throwFeatMissing("isCorrect", "xiangl2.infosystem.input.Answer");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((Answer_Type)jcasType).casFeatCode_isCorrect);}
     
-  /** setter for isCorrect - sets Indicate if this answer is correct. 
+  /** setter for isCorrect - sets the flag which indicates if this answer is correct. 
    * @generated */
   public void setIsCorrect(boolean v) {
     if (Answer_Type.featOkTst && ((Answer_Type)jcasType).casFeat_isCorrect == null)
@@ -84,14 +84,14 @@ public class Answer extends TextAnnotationBase {
   //*--------------*
   //* Feature: content
 
-  /** getter for content - gets The content of this answer.
+  /** getter for content - gets the content of this answer.
    * @generated */
   public Sentence getContent() {
     if (Answer_Type.featOkTst && ((Answer_Type)jcasType).casFeat_content == null)
       jcasType.jcas.throwFeatMissing("content", "xiangl2.infosystem.input.Answer");
     return (Sentence)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Answer_Type)jcasType).casFeatCode_content)));}
     
-  /** setter for content - sets The content of this answer. 
+  /** setter for content - sets the content of this answer. 
    * @generated */
   public void setContent(Sentence v) {
     if (Answer_Type.featOkTst && ((Answer_Type)jcasType).casFeat_content == null)

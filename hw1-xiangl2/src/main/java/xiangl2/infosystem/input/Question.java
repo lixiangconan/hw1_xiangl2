@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:41 EDT 2013 */
 package xiangl2.infosystem.input;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import xiangl2.infosystem.basic.TextAnnotationBase;
 import xiangl2.infosystem.content.Sentence;
 
 
-/** This class stores the annotation for the question in the input file. It contains a feature content which annotates the question sentence.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+/** This type is used to store the annotation of the question in the input file. It contains a feature content which annotates the question sentence.
+ * Updated by JCasGen Wed Sep 11 20:37:41 EDT 2013
  * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class Question extends TextAnnotationBase {
@@ -66,14 +66,14 @@ public class Question extends TextAnnotationBase {
   //*--------------*
   //* Feature: content
 
-  /** getter for content - gets The content of this question.
+  /** getter for content - gets the content of this question.
    * @generated */
   public Sentence getContent() {
     if (Question_Type.featOkTst && ((Question_Type)jcasType).casFeat_content == null)
       jcasType.jcas.throwFeatMissing("content", "xiangl2.infosystem.input.Question");
     return (Sentence)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Question_Type)jcasType).casFeatCode_content)));}
     
-  /** setter for content - sets The content of this question. 
+  /** setter for content - sets the content of this question. 
    * @generated */
   public void setContent(Sentence v) {
     if (Question_Type.featOkTst && ((Question_Type)jcasType).casFeat_content == null)

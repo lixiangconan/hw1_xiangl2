@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:40 EDT 2013 */
 package xiangl2.infosystem.basic;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** Base type for text annotation. It contains a feature source which shows where this annotation was orriginally made by, and a feature confidence which indicates how confidence it was.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+ * Updated by JCasGen Wed Sep 11 20:37:40 EDT 2013
  * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class TextAnnotationBase extends Annotation {
@@ -65,14 +65,14 @@ public class TextAnnotationBase extends Annotation {
   //*--------------*
   //* Feature: source
 
-  /** getter for source - gets Name of the annotator which orriginally made this annotation.
+  /** getter for source - gets name of the annotator which orriginally made this annotation.
    * @generated */
   public String getSource() {
     if (TextAnnotationBase_Type.featOkTst && ((TextAnnotationBase_Type)jcasType).casFeat_source == null)
       jcasType.jcas.throwFeatMissing("source", "xiangl2.infosystem.basic.TextAnnotationBase");
     return jcasType.ll_cas.ll_getStringValue(addr, ((TextAnnotationBase_Type)jcasType).casFeatCode_source);}
     
-  /** setter for source - sets Name of the annotator which orriginally made this annotation. 
+  /** setter for source - sets name of the annotator which orriginally made this annotation. 
    * @generated */
   public void setSource(String v) {
     if (TextAnnotationBase_Type.featOkTst && ((TextAnnotationBase_Type)jcasType).casFeat_source == null)
@@ -83,14 +83,14 @@ public class TextAnnotationBase extends Annotation {
   //*--------------*
   //* Feature: confidence
 
-  /** getter for confidence - gets Confidence of this annotation.
+  /** getter for confidence - gets confidence of this annotation.
    * @generated */
   public double getConfidence() {
     if (TextAnnotationBase_Type.featOkTst && ((TextAnnotationBase_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "xiangl2.infosystem.basic.TextAnnotationBase");
     return jcasType.ll_cas.ll_getDoubleValue(addr, ((TextAnnotationBase_Type)jcasType).casFeatCode_confidence);}
     
-  /** setter for confidence - sets Confidence of this annotation. 
+  /** setter for confidence - sets confidence of this annotation. 
    * @generated */
   public void setConfidence(double v) {
     if (TextAnnotationBase_Type.featOkTst && ((TextAnnotationBase_Type)jcasType).casFeat_confidence == null)

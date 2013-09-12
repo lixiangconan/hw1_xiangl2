@@ -1,19 +1,20 @@
 
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:41 EDT 2013 */
 package xiangl2.infosystem.content;
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
+import xiangl2.infosystem.basic.TextAnnotationBase;
 
 
-/** This class defines basic features and methods for an N-gram sequance annotation. It contains a feature tokenNumber which shows number of tokens in this sequence.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+/** This type defines basic features and methods for an N-gram sequance annotation. It contains a feature tokenNumber which shows number of tokens in this sequence.
+ * Updated by JCasGen Wed Sep 11 20:37:41 EDT 2013
  * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
-public class Ngram extends Token {
+public class Ngram extends TextAnnotationBase {
   /** @generated
    * @ordered 
    */
@@ -64,14 +65,14 @@ public class Ngram extends Token {
   //*--------------*
   //* Feature: tokenNumber
 
-  /** getter for tokenNumber - gets Number of tokens in this N-gram sequence.
+  /** getter for tokenNumber - gets number of tokens in this N-gram sequence.
    * @generated */
   public int getTokenNumber() {
     if (Ngram_Type.featOkTst && ((Ngram_Type)jcasType).casFeat_tokenNumber == null)
       jcasType.jcas.throwFeatMissing("tokenNumber", "xiangl2.infosystem.content.Ngram");
     return jcasType.ll_cas.ll_getIntValue(addr, ((Ngram_Type)jcasType).casFeatCode_tokenNumber);}
     
-  /** setter for tokenNumber - sets Number of tokens in this N-gram sequence. 
+  /** setter for tokenNumber - sets number of tokens in this N-gram sequence. 
    * @generated */
   public void setTokenNumber(int v) {
     if (Ngram_Type.featOkTst && ((Ngram_Type)jcasType).casFeat_tokenNumber == null)

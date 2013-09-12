@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:40 EDT 2013 */
 package xiangl2.infosystem.content;
 
 import org.apache.uima.jcas.JCas; 
@@ -9,8 +9,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 
-/** This class stores an 1-gram sequence in the input file. It contains a feature which indicates the only token in this sequence.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+/** This type is used to store an 1-gram sequence in the input file. It contains a feature which indicates the token in this sequence.
+ * Updated by JCasGen Wed Sep 11 20:37:40 EDT 2013
  * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class Gram1 extends Ngram {
@@ -64,14 +64,14 @@ public class Gram1 extends Ngram {
   //*--------------*
   //* Feature: token1
 
-  /** getter for token1 - gets The token in this 1-gram sequence.
+  /** getter for token1 - gets the token in this 1-gram sequence.
    * @generated */
   public Token getToken1() {
     if (Gram1_Type.featOkTst && ((Gram1_Type)jcasType).casFeat_token1 == null)
       jcasType.jcas.throwFeatMissing("token1", "xiangl2.infosystem.content.Gram1");
     return (Token)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Gram1_Type)jcasType).casFeatCode_token1)));}
     
-  /** setter for token1 - sets The token in this 1-gram sequence. 
+  /** setter for token1 - sets the token in this 1-gram sequence. 
    * @generated */
   public void setToken1(Token v) {
     if (Gram1_Type.featOkTst && ((Gram1_Type)jcasType).casFeat_token1 == null)

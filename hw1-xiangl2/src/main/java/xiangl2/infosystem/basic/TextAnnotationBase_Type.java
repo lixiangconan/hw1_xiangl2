@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:40 EDT 2013 */
 package xiangl2.infosystem.basic;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Base type for text annotation. It contains a feature source which shows where this annotation was orriginally made by, and a feature confidence which indicates how confidence it was.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+ * Updated by JCasGen Wed Sep 11 20:37:40 EDT 2013
  * @generated */
 public class TextAnnotationBase_Type extends Annotation_Type {
   /** @generated */

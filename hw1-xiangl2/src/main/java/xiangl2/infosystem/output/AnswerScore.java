@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:41 EDT 2013 */
 package xiangl2.infosystem.output;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import xiangl2.infosystem.input.Answer;
 import xiangl2.infosystem.basic.TextAnnotationBase;
 
 
-/** This class records the score of an answer.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+/** This type is used to record the score of an answer.
+ * Updated by JCasGen Wed Sep 11 20:37:41 EDT 2013
  * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class AnswerScore extends TextAnnotationBase {
@@ -66,14 +66,14 @@ public class AnswerScore extends TextAnnotationBase {
   //*--------------*
   //* Feature: answer
 
-  /** getter for answer - gets An input answer.
+  /** getter for answer - gets the input answer.
    * @generated */
   public Answer getAnswer() {
     if (AnswerScore_Type.featOkTst && ((AnswerScore_Type)jcasType).casFeat_answer == null)
       jcasType.jcas.throwFeatMissing("answer", "xiangl2.infosystem.output.AnswerScore");
     return (Answer)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((AnswerScore_Type)jcasType).casFeatCode_answer)));}
     
-  /** setter for answer - sets An input answer. 
+  /** setter for answer - sets the input answer. 
    * @generated */
   public void setAnswer(Answer v) {
     if (AnswerScore_Type.featOkTst && ((AnswerScore_Type)jcasType).casFeat_answer == null)
@@ -84,14 +84,14 @@ public class AnswerScore extends TextAnnotationBase {
   //*--------------*
   //* Feature: score
 
-  /** getter for score - gets Score of the answer in this class.
+  /** getter for score - gets the score of the answer.
    * @generated */
   public double getScore() {
     if (AnswerScore_Type.featOkTst && ((AnswerScore_Type)jcasType).casFeat_score == null)
       jcasType.jcas.throwFeatMissing("score", "xiangl2.infosystem.output.AnswerScore");
     return jcasType.ll_cas.ll_getDoubleValue(addr, ((AnswerScore_Type)jcasType).casFeatCode_score);}
     
-  /** setter for score - sets Score of the answer in this class. 
+  /** setter for score - sets the score of the answer. 
    * @generated */
   public void setScore(double v) {
     if (AnswerScore_Type.featOkTst && ((AnswerScore_Type)jcasType).casFeat_score == null)

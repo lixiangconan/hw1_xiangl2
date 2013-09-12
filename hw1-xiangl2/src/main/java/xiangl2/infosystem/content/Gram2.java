@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:40 EDT 2013 */
 package xiangl2.infosystem.content;
 
 import org.apache.uima.jcas.JCas; 
@@ -9,8 +9,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 
-/** This class stores an 2-gram sequence in the input file. It contains features which indicate the two tokens in this sequence.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+/** This type is used to store an 2-gram sequence in the input file. It contains features which indicate the two tokens in this sequence.
+ * Updated by JCasGen Wed Sep 11 20:37:40 EDT 2013
  * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class Gram2 extends Ngram {
@@ -64,14 +64,14 @@ public class Gram2 extends Ngram {
   //*--------------*
   //* Feature: token1
 
-  /** getter for token1 - gets The first token in this 2-gram sequence.
+  /** getter for token1 - gets the first token in this 2-gram sequence.
    * @generated */
   public Token getToken1() {
     if (Gram2_Type.featOkTst && ((Gram2_Type)jcasType).casFeat_token1 == null)
       jcasType.jcas.throwFeatMissing("token1", "xiangl2.infosystem.content.Gram2");
     return (Token)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Gram2_Type)jcasType).casFeatCode_token1)));}
     
-  /** setter for token1 - sets The first token in this 2-gram sequence. 
+  /** setter for token1 - sets the first token in this 2-gram sequence. 
    * @generated */
   public void setToken1(Token v) {
     if (Gram2_Type.featOkTst && ((Gram2_Type)jcasType).casFeat_token1 == null)
@@ -82,14 +82,14 @@ public class Gram2 extends Ngram {
   //*--------------*
   //* Feature: token2
 
-  /** getter for token2 - gets The second token in this 2-gram sequence.
+  /** getter for token2 - gets the second token in this 2-gram sequence.
    * @generated */
   public Token getToken2() {
     if (Gram2_Type.featOkTst && ((Gram2_Type)jcasType).casFeat_token2 == null)
       jcasType.jcas.throwFeatMissing("token2", "xiangl2.infosystem.content.Gram2");
     return (Token)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Gram2_Type)jcasType).casFeatCode_token2)));}
     
-  /** setter for token2 - sets The second token in this 2-gram sequence. 
+  /** setter for token2 - sets the second token in this 2-gram sequence. 
    * @generated */
   public void setToken2(Token v) {
     if (Gram2_Type.featOkTst && ((Gram2_Type)jcasType).casFeat_token2 == null)

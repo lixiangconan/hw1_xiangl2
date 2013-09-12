@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Sep 10 23:33:49 EDT 2013 */
+/* First created by JCasGen Wed Sep 11 20:37:41 EDT 2013 */
 package xiangl2.infosystem.content;
 
 import org.apache.uima.jcas.JCas; 
@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import xiangl2.infosystem.basic.TextAnnotationBase;
 
 
-/** This class stores the annotation for an token in the input file.
- * Updated by JCasGen Tue Sep 10 23:33:49 EDT 2013
+/** This type is used to store the annotation of an token in the input file.
+ * Updated by JCasGen Wed Sep 11 20:37:41 EDT 2013
  * XML source: E:/git/hw1_xiangl2/hw1-xiangl2/src/main/resources/hw1-xiangl2-typesystem.xml
  * @generated */
 public class Token extends TextAnnotationBase {
